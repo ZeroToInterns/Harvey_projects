@@ -11,12 +11,11 @@ public class StringManipulation {
 		System.out.println(userName.substring(0, 1));// system.out is output 
 		String[] parts = userName.split(" ");
 		String firstName = parts[0];
-//		String lastName = parts[1];
+		
 		System.out.println(firstName);
-		int firstSpace = userName.lastIndexOf(" ");
 		
 		System.out.println(userName.substring(firstName.length()+1));
 		
-		System.out.println(userName.substring(4, firstSpace));
+		System.out.println(userName.substring(4, 7));
 		}
 }
